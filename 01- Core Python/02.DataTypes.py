@@ -154,7 +154,7 @@ id(12)        # Output: 140711234567456  (The actual output will vary each time 
 input("Enter your name: ")
 int(input("Enter your age: "))
 float(input("Enter your height: "))
-
+eval(input("Enter a Python expression: ")) # eval() function evaluates based on the input and return the result.
 
 # ----------- Type Casting / Conversion -----------
 
