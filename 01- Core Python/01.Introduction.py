@@ -7,4 +7,3 @@
 # Dynamic Typing, Interpreted Languages & GIL ?
 # Why Python Is Popular & Industry Usage ?
 
-
