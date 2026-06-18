@@ -22,8 +22,8 @@ Real-World String Parsing
 
 '''
 
-# Indexing : Extracting a single character in a string  using its position or Extracting a single value/item from a advance data Types using its position.
-# Slicing : Extracting a multiple characters in a string (which has pattern) or Extracting a multiple values/items from a advance data Types (which has pattern) using its position.
+# Indexing : Extracting a single character in a string using its position, or extracting a single value/item from an advanced data type using its position.
+# Slicing : Extracting multiple characters in a string (which has a pattern), or extracting multiple values/items from an advanced data type (which has a pattern) using positions.
 
 
 # ----------------------------------------
@@ -145,15 +145,15 @@ print(text[::2])   # 'dt cec' (Starts at 0, goes to end, jumps by 2)
 print(text[1::2])  # 'aaSine' (Starts at index 1, goes to end, jumps by 2)
 
 # 4. Skipping Characters Backward (Negative Step)
-print(text[::-2])  # 'eceiSa' (Starts at end, goes backward, jumps by 2)
+print(text[::-2])  # 'eniSaa' (Starts at end, goes backward, jumps by 2)
 
 # 5. Start, Stop, AND Step Combined
 print(text[2:8:2]) # 't c' (Starts at 2('t'), stops BEFORE 8('e'), jumps by 2)
-print(text[8:2:-1])# 'eicS a' (Starts at 8('e'), stops BEFORE 2('t'), jumps backward by 1)
+print(text[8:2:-1]) # 'eicS a' (Starts at 8('e'), stops BEFORE 2('t'), jumps backward by 1)
 
-print(text[5:4000:1]) # 'ncS' (Starts at 5('S'), stops BEFORE 4000, jumps by 1) Its work because stop index is out of range, it will just go to the end of the string without throwing an error.
+print(text[5:4000:1]) # 'Science' (Starts at 5('S'), stops BEFORE 4000, jumps by 1). It works because the stop index is out of range, so it goes to the end of the string without throwing an error.
 
-print(text[-10: -2 : -1])  # 'cneicS' (Starts at -10, stops BEFORE -2, jumps backward by 1)
-print(text[-1300: -1: 1])  # 'data Scienc' (Starts at -1300, stops BEFORE -1, jumps by 1) Its work because start index is out of range, it will just start from the beginning of the string without throwing an error.
-print(text[15:500:1])      # '' (Starts at 15, stops BEFORE 500, jumps by 1) Its work because start index is out of range, it will just return an empty string without throwing an error.
+print(text[-10: -2 : -1])  # '' (Empty string: with a negative step, this start/stop combination does not traverse any characters)
+print(text[-1300: -1: 1])  # 'data Scienc' (Starts at -1300, stops BEFORE -1, jumps by 1). It works because the start index is out of range, so it starts from the beginning of the string without throwing an error.
+print(text[15:500:1])      # '' (Starts at 15, stops BEFORE 500, jumps by 1). It works because the start index is out of range, so it returns an empty string without throwing an error.
 
