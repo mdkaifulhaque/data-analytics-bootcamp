@@ -87,16 +87,16 @@ print(a, b, 30)
 
 # ----------- Data Types -----------
 
-# In python Data Type will assign automatically based on the value assigned to the variable. This is called Dynamic Programming.
+# In Python, data types are assigned automatically based on the value assigned to the variable. This is called dynamic typing.
 
-# You can store single value In object --> Fundamental Data Types
+# You can store a single value in an object --> Fundamental Data Types
 
     # 1. Integer (without decimal) -> 14, 24, -23
     # 2. Float (with decimal)      -> 12.3, 34.2, -23.4
     # 3. String (non-numeric)      -> "srk",  "da" 
     # 4. Boolean (True/False)      -> True, False
 
-# You can store multiple values in object --> Collection Data Types or Advanced Data Types
+# You can store multiple values in an object --> Collection Data Types or Advanced Data Types
 
     # 1. List 
     # 2. Tuple
@@ -132,7 +132,7 @@ len({"a": 1, "b": 2}) # Output: 2 For dictionary, it returns the number of key-v
 # ----------------------------------------
      # id() function is used to get the unique identifier (memory address) of an object in Python.
      # It returns an integer that represents the memory address of the object passed as an argument.
-     # Its works for all data types, including int, float, str, list, tuple, set, and dict.
+    # It works for all data types, including int, float, str, list, tuple, set, and dict.
 
 id(12)        # Output: 140711234567456  (The actual output will vary each time the program is run.)   
 
@@ -154,7 +154,7 @@ id(12)        # Output: 140711234567456  (The actual output will vary each time 
 input("Enter your name: ")
 int(input("Enter your age: "))
 float(input("Enter your height: "))
-eval(input("Enter a Python expression: ")) # eval() function evaluates based on the input and return the result.
+eval(input("Enter a Python expression: ")) # eval() function evaluates based on the input and returns the result.
 
 # ----------- Type Casting / Conversion -----------
 
@@ -180,7 +180,7 @@ print(float("123.45")) # Output: 123.45
 # -----------------------------------
 # Integer to String
 # -----------------------------------
-print(str(123))        # Output: "123"
+print(str(123))        # Output: 123
 
 # -----------------------------------
 # Number to Boolean
@@ -300,7 +300,7 @@ print(int("123"))      # 123
 print(float("12.5"))   # 12.5
 
 # Number converted into text.
-print(str(123))        # '123'
+print(str(123))        # 123
 
 # Non-zero number becomes True.
 print(bool(100))       # True
@@ -308,7 +308,7 @@ print(bool(100))       # True
 
 # ----------- Evaluation Order / Expression Evaluation Order -----------
 
-# In python right
+# In Python:
 # In Python, the evaluation order of expressions is determined by operator precedence and associativity.
 # Operator precedence defines the order in which different types of operators are evaluated in an expression.
 # The order of evaluation is as follows:
@@ -322,5 +322,4 @@ print(bool(100))       # True
 # Example:
 result = 3 + 4 * 2 / (1 - 5) ** 2
 print(result)  # Output: 3.5
-
 
