@@ -159,3 +159,34 @@ print("Sum of even numbers:", even_sum)
 student = {"name": "Ravi", "age": 20, "city": "Mumbai"}
 for key in student:
     print(key, ":", student[key])
+
+
+# Q19. Write a program to create a new list by doubling each number in a list using a for loop.
+l = [1, 2, 3, 4, 5]
+n = []
+for i in l:
+    n.append(i * 2)
+print(n)
+
+
+
+# Q20. Write a program to add elements from two lists at the same positions using a for loop.
+l1 = [1, 8, 9,20]
+l2 = [6, 7, 15, 18]
+
+n = []
+for i in range(4):
+    c = (l1[i] + l2[i])
+    n.append(c)
+print(n)
+
+
+
+# Q21. Write a program to pick selected items from a list using index values in a for loop.
+l = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+index = [0, 2, 4, 6, 8]
+
+n = []
+for i in index:
+    n.append(l[i])
+print(n)
