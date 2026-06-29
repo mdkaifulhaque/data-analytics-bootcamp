@@ -157,3 +157,4 @@ print(text[-10: -2 : -1])  # '' (Empty string: with a negative step, this start/
 print(text[-1300: -1: 1])  # 'data Scienc' (Starts at -1300, stops BEFORE -1, jumps by 1). It works because the start index is out of range, so it starts from the beginning of the string without throwing an error.
 print(text[15:500:1])      # '' (Starts at 15, stops BEFORE 500, jumps by 1). It works because the start index is out of range, so it returns an empty string without throwing an error.
 
+
