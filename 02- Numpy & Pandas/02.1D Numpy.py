@@ -424,7 +424,3 @@ print("Indices where > 10:", indices)
 # Output: Indices where > 10: (array([3, 4, 5]),)
 
 
-# ============================================================
-print("\n" + "="*50)
-print("✅ END OF NUMPY MASTERCLASS (0D & 1D ONLY)")
-print("="*50)
