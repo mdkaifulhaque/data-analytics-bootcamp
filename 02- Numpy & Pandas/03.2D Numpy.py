@@ -607,7 +607,4 @@ print(np.sort(matrix, axis=0))
 #  [9 7 8]]
 
 
-# ============================================================
-print("\n" + "="*50)
-print("✅ END OF 2D NUMPY MASTERCLASS")
-print("="*50)
+
